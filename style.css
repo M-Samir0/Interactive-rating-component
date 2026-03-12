@@ -1,0 +1,118 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121417;
+  font-family: "Overpass", sans-serif;
+}
+
+.card {
+  width: 400px;
+  height: 350px;
+  background-color: #1e252f;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.hidden {
+  display: none;
+}
+
+.starIcon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #262f38;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph {
+  color: #959eac;
+}
+.ratings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  margin: 30px 0px 15px 0px;
+}
+
+.rateBtn {
+  background-color: #262f38;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  cursor: pointer;
+  border-style: none;
+  color: white;
+}
+
+.rateBtn:hover {
+  color: #1e252f;
+  background-color: #fb7413;
+}
+.rateBtn.selected {
+  background-color: white;
+  color: #1e252f;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#submitBtn {
+  background-color: #fb7413;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  border-style: none;
+  border-radius: 20px;
+  width: 320px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+#submitBtn:hover {
+  color: #1e252f;
+  background-color: white;
+}
+
+.mobileIcon {
+  text-align: center;
+  margin: 15px;
+}
+
+.userRate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userRateText {
+  background-color: #262f38;
+  color: #fb7413;
+  border-radius: 20px;
+  text-align: center;
+  padding: 8px;
+  width: 200px;
+}
+
+.thanks {
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.message {
+  text-align: center;
+  color: #959eac;
+}
